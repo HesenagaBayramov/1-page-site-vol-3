@@ -1,0 +1,97 @@
+/*** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*fontsize: 100%;
+	vertical-align:baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse; border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/** RESET ****/
+
+.all{
+    background-image:url(pexels2.jpg) ;
+    background-repeat: no-repeat;
+    width:100%;
+    height:1650px;
+    background: 
+    
+}
+
+.font-style{
+    color: #fff;
+    font:50px tahoma;
+    padding: 250px 0 0 200px
+}
+.font-style1{
+    color: #fff;
+    font:25px tahoma;
+    padding: 5px 0 0 100px
+}
+
+.search{
+    color: #fff;
+    font:15px tahoma;
+    padding: 0 0 0 150px;
+    display: block;
+    position: absolute
+}
+
+.menu{
+    margin: -40px 0 0 800px;
+
+}
+
+.sagmenu ul li{
+    width: 80px;
+    float:left;
+    padding:32px 20px 0 20px; 
+    font:20px tahoma;
+    text-align: center;
+}
+
+.sagmenu ul li a{
+    display:block;
+    text-decoration: none;
+    color:#fff;
+
+}
+.sagmenu ul li a:hover{
+    text-decoration: underline;
+    height: auto;
+    width: auto;
+}
+.sagmenu ul li {
+    display:block;
+    height:40px;
+    text-decoration: none;
+    color:#fff;
+}
+
+.category{
+    background-image: url(category1.jpg) ;
+    background-repeat: no-repeat;
+    width:100%;
+    padding: 1000px 0 0 0;
+    margin:320px 0 0 0;
+}
+.fa-1x{
+    float: left;
+    padding: 3px 5px 0 5px;
+}
+
+.audio{
+    z-index: 1;
+    position: absolute;
+    top:70px;
+    left: 1000px
+}
